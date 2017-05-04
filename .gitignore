@@ -1,0 +1,13 @@
+/webapi1
+/ConsoleWebApi/bin
+/ConsoleWebApi/obj
+/ManualResetEvent/ManualResetEvent/bin
+
+/ManualResetEvent/ManualResetEvent/obj
+
+/mutex/mutex/bin
+/mutex/mutex/obj
+/semaphore/semaphore/obj
+/semaphore/semaphore/bin
+/volatile/volatile/obj
+/volatile/volatile/bin
