@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="f06b4265-bec1-4291-ba80-f62ae48c445a" name="UMLClassDiagram_AbstractFactoryPattern" linkedPackageId="6c5da2cc-9997-4a86-af5c-60f5eea5935a" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <packagedElements>
+    <packageHasNamedElement>
+      <class Id="44426c04-c6b1-49fd-8978-03248fff58ad" name="Продукт_A2" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="a930cef2-4c6d-4b32-8910-dbfbdeba91dc" />
+        <generalsInternal>
+          <generalization Id="2d022d27-b240-4fa0-b6b2-366692792f7e" isSubstitutable="false">
+            <classMoniker Id="4c310deb-25d2-4bfd-9e4a-86458a901066" LastKnownName="Абстрактный продукт2" />
+            <elementDefinition Id="10abc37f-e2d1-47c7-bd88-377559975b0a" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class Id="750cbae4-0931-4e38-9ceb-fd2c8f928d20" name="Продукт_B2" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="330f1b6d-001d-440c-a907-06fe011658d0" />
+        <generalsInternal>
+          <generalization Id="0172b1d8-c0a4-4663-b040-4ff1d1cc4fa1" isSubstitutable="false">
+            <classMoniker Id="4c310deb-25d2-4bfd-9e4a-86458a901066" LastKnownName="Абстрактный продукт2" />
+            <elementDefinition Id="6c28198b-2b26-46ac-9680-1fccf8bd2dae" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class Id="4c310deb-25d2-4bfd-9e4a-86458a901066" name="Абстрактный продукт2" isAbstract="true" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="679d68da-d480-4ed4-aee2-b0b6995bf045" />
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class Id="0f66ffad-d088-4753-bf3d-30f933d5d32a" name="Продукт_B1" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e0a3e6bf-f1db-4704-b419-72f8790e96cc" />
+        <generalsInternal>
+          <generalization Id="7f43e919-46f6-44a9-8c7d-7d53e0e8c8aa" isSubstitutable="false">
+            <classMoniker Id="c597d3db-552c-4f5e-966c-7e12cc59b76c" LastKnownName="Абстрактный продукт1" />
+            <elementDefinition Id="8a9b3a37-0ecc-4048-a330-823b14ceca1b" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class Id="eea8c19a-865c-4162-b080-3333d8461dd3" name="Продукт_A1" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="c6f6c4ab-1e94-4ef7-8ef2-f31cf85ec091" />
+        <generalsInternal>
+          <generalization Id="c48b6dde-dc63-44bb-b06d-2a7f3ec52ebb" isSubstitutable="false">
+            <classMoniker Id="c597d3db-552c-4f5e-966c-7e12cc59b76c" LastKnownName="Абстрактный продукт1" />
+            <elementDefinition Id="a771cc7a-d718-4bd4-bc3d-9a7b8a89f549" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class Id="c597d3db-552c-4f5e-966c-7e12cc59b76c" name="Абстрактный продукт1" isAbstract="true" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="76b826d2-b96d-485c-8fc8-f76ed5373016" />
+        <targetEnds>
+          <association Id="98ec5116-017c-4eb6-a2bf-ea3f95e20ff8" isDerived="false" sourceEndRoleName="АБстрактный продукт1" targetEndRoleName="Абстрактный продукт2" isLeaf="false" isAbstract="false">
+            <classMoniker Id="4c310deb-25d2-4bfd-9e4a-86458a901066" LastKnownName="Абстрактный продукт2" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0ad0ea22-732c-4235-9b4a-983c834c918d" name="АБстрактный продукт1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="733386ea-4dc3-457d-85e1-06b1a7d8b3de" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7295f3b4-5f54-494a-b4ac-6edc2fa50b0b" name="Абстрактный продукт2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="e093a1c3-b343-48a5-b694-f571bd3fda4e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b089d3de-c209-4852-b2af-d5cb9ce53e0a" />
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class Id="5d141ac7-66b4-4420-8d5a-d5ca63b7f66d" name="Клиент" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="9a131de9-a71a-4fe7-8518-7ea3f032f65e" />
+        <targetEnds>
+          <association Id="e95fd6c0-58ba-425a-8e56-c38039e8777c" isDerived="false" sourceEndRoleName="Клиент" targetEndRoleName="Абстрактная фабрика" isLeaf="false" isAbstract="false">
+            <classMoniker Id="31da703f-157f-4dbd-8204-ae8f93f98f65" LastKnownName="Абстрактная фабрика" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c427a935-998f-4ae7-ad26-6373f9ddf25c" name="Клиент" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="b25fc865-7f9b-46d5-a2c5-56a73e8b425b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a6858e89-6169-48cb-9346-4895e03a6c93" name="Абстрактная фабрика" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b0f1c705-45b4-4ecd-b30a-920fbebdfaa1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e8b3ecb1-ec28-431c-a400-e51d675e1ee6" />
+          </association>
+          <association Id="ad726c3e-8735-4efe-8ed0-7234fc0654a2" isDerived="false" sourceEndRoleName="Клиент" targetEndRoleName="АБстрактный продукт1" isLeaf="false" isAbstract="false">
+            <classMoniker Id="c597d3db-552c-4f5e-966c-7e12cc59b76c" LastKnownName="Абстрактный продукт1" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d0675479-40f8-4034-901b-391022ca7be0" name="Клиент" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d5c430de-2675-48a9-bff4-0407e95a9e0c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="503aef72-d995-4a76-abd0-ae606f795aa2" name="АБстрактный продукт1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="5a175599-544c-4d00-affd-dc66fc433e2f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="86585be2-c817-48f1-8511-4ba69805dfc9" />
+          </association>
+          <association Id="820910e2-7e48-4787-96a5-06dd5727fcdb" isDerived="false" sourceEndRoleName="Клиент" targetEndRoleName="Абстрактный продукт2" isLeaf="false" isAbstract="false">
+            <classMoniker Id="4c310deb-25d2-4bfd-9e4a-86458a901066" LastKnownName="Абстрактный продукт2" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6fae84ce-8946-4c47-91e4-0cc172c2640a" name="Клиент" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a2acb9b8-f763-44b6-99f4-c9ba44692ad4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1885c79f-f2a7-49cc-bc80-a6b933870cce" name="Абстрактный продукт2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d67ec23c-20a6-4887-b145-297fbf554865" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8881986f-cde7-4cd5-97d5-bd2d13d4a130" />
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class Id="31da703f-157f-4dbd-8204-ae8f93f98f65" name="Абстрактная фабрика" isAbstract="true" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="dd21c626-59ec-46b4-a7b8-efbf44b7d1f5" />
+        <ownedOperationsInternal>
+          <operation Id="aa5363e1-dae1-491e-9a74-d23fbe236b99" name="Создать Продукт 1" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="c66c7eb1-d919-4728-8e93-82bfd1957e3c" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="fecb2d3a-80dd-4d4f-bb80-9edecafe3e4c" direction="Return">
+                  <elementDefinition Id="9ee99d3b-3f5b-44c2-8e99-e9bbd4103f4c" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="004b5017-7c13-4702-b3b1-32b0005ca9c2" LastKnownName="Абстрактный продукт1" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="cbf3ec65-c05d-43b3-a0e1-cb35df59e54d" name="Создать Продукт 2" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="164cc63e-c6cb-4e67-8512-62d9ed770377" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="0a42a536-8ac2-40d8-96e2-3a6e2226bf4f" direction="Return">
+                  <elementDefinition Id="23d7857c-490d-4ede-81ef-c9bd2debb713" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="460cabca-5a84-4514-be16-c6714a9db948" LastKnownName="Абстрактный продукт2" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class Id="35de55af-20ce-4f35-94e2-79b33def5a00" name="Фабрика_B" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="90fa3f85-4a30-4a7b-8262-9b330c60a623" />
+        <suppliersInternal>
+          <dependency Id="95ef67cb-5139-403e-bf8e-ae8e161f2eba">
+            <classMoniker Id="0f66ffad-d088-4753-bf3d-30f933d5d32a" LastKnownName="Продукт_B1" />
+            <elementDefinition Id="7c719297-f413-48a2-9b5b-3570d22e7334" />
+          </dependency>
+          <dependency Id="569702c4-2f23-46a7-bc3f-710b3205a9ba">
+            <classMoniker Id="750cbae4-0931-4e38-9ceb-fd2c8f928d20" LastKnownName="Продукт_B2" />
+            <elementDefinition Id="2076e91e-ccd9-444d-b076-444cd4b4fb05" />
+          </dependency>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization Id="45fd409f-cc95-4efe-b12e-e39851900499" isSubstitutable="false">
+            <classMoniker Id="31da703f-157f-4dbd-8204-ae8f93f98f65" LastKnownName="Абстрактная фабрика" />
+            <elementDefinition Id="a823ea21-721f-42e1-863f-a506153e3a10" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="0bc85b04-da1c-48e9-b608-e123c322c0f7" name="Создать Продукт 1" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="e796211d-9d2d-4735-8bd7-df1d9b045e1e" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="cc907d68-c457-463b-98ae-cf05d8c49b65" direction="Return">
+                  <elementDefinition Id="6ca4c1d2-73fc-4a13-b1ed-7f987598264d" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="004b5017-7c13-4702-b3b1-32b0005ca9c2" LastKnownName="Абстрактный продукт1" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="921a4c90-714d-4934-a154-6e342c05f41b" name="Создать Продукт 2" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="39ece652-3ad5-4a4b-ad54-e0f194964e16" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="353f8986-de50-4663-b9ba-c2b12ee99899" direction="Return">
+                  <elementDefinition Id="74322276-1c3d-4d20-908d-b43c53d4fb07" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="460cabca-5a84-4514-be16-c6714a9db948" LastKnownName="Абстрактный продукт2" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class Id="452af51d-e641-4e8d-891e-7837c79ade98" name="Фабрика_A" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="82e18a4f-005c-4d52-acae-2f5c3a2f26c5" />
+        <suppliersInternal>
+          <dependency Id="530b4e3f-8fe6-4ead-b0c2-8e2a10bca065">
+            <classMoniker Id="eea8c19a-865c-4162-b080-3333d8461dd3" LastKnownName="Продукт_A1" />
+            <elementDefinition Id="12765e63-9a93-4c02-98d4-162a4cb20fd5" />
+          </dependency>
+          <dependency Id="3fda1950-5bf6-4bc0-89fb-b70986844e77">
+            <classMoniker Id="44426c04-c6b1-49fd-8978-03248fff58ad" LastKnownName="Продукт_A2" />
+            <elementDefinition Id="8951adef-729e-4685-a639-43f6c7b4ccd4" />
+          </dependency>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization Id="14374bd7-2696-498b-8a45-da4695519bcc" isSubstitutable="false">
+            <classMoniker Id="31da703f-157f-4dbd-8204-ae8f93f98f65" LastKnownName="Абстрактная фабрика" />
+            <elementDefinition Id="d30d5f65-368a-4365-b3b6-0aa7f989877b" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="1322e57d-2e47-4aaf-878f-4e5453747a8f" name="Создать Продукт 1" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="138e082d-7a17-451a-bfca-df84eaa5c50d" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="c44c7fc9-cb94-4561-9ce7-c2245726d09e" direction="Return">
+                  <elementDefinition Id="0a0f1731-d07e-4fd6-8704-331f149c8121" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="004b5017-7c13-4702-b3b1-32b0005ca9c2" LastKnownName="Абстрактный продукт1" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="02e5be1c-f03b-4f1c-8748-70b81be7c410" name="Создать Продукт 2" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="54c08bd4-22a8-4f15-90e2-e61069a32c2c" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="e09e5f16-66ee-4e3d-90b4-5ab9175d4c3e" direction="Return">
+                  <elementDefinition Id="38efb0ca-949e-4dd6-8905-a0c7f9e2a481" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="460cabca-5a84-4514-be16-c6714a9db948" LastKnownName="Абстрактный продукт2" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="004b5017-7c13-4702-b3b1-32b0005ca9c2" name="Абстрактный продукт1" isAbstract="false" isLeaf="false" cachedFullName="AbstractFactory::Абстрактная фабрика::Абстрактный продукт1">
+        <elementDefinition Id="76b826d2-b96d-485c-8fc8-f76ed5373016" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="460cabca-5a84-4514-be16-c6714a9db948" name="Абстрактный продукт2" isAbstract="false" isLeaf="false" cachedFullName="AbstractFactory::Абстрактная фабрика::Абстрактный продукт2">
+        <elementDefinition Id="679d68da-d480-4ed4-aee2-b0b6995bf045" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="6c5da2cc-9997-4a86-af5c-60f5eea5935a" name="AbstractFactory">
+    <elementDefinition Id="3183aec8-7f6b-4380-b7f5-9d9869a0c6dd" />
+    <profileInstances>
+      <packageHasProfileInstances Id="82547382-796b-4f2a-a0c2-56b3561bc144">
+        <profileInstance Id="bd659636-0da3-4aab-9fe5-b82a6eec2aae" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="73708320-3c4a-4207-802a-480ea60ede13">
+        <profileInstance Id="ec02b675-f450-480e-952f-9167a8e9cc1d" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="5735d10b-a4f1-4a8a-ad45-4ad286092a41">
+        <profileInstance Id="91d58880-c1d1-40cf-acec-6a4bdb4866f3" name="TextTemplateBindings">
+          <elementDefinition Id="8c9a7a0f-8c46-4394-8795-3ee7fad084b9" />
+        </profileInstance>
+        <elementDefinition Id="8c5de30e-9187-4e67-9a91-beb05088d24b" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>

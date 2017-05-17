@@ -1,0 +1,2 @@
+G:\PR\TestProject\PatternsOOP\PatternsOOP\bin\Debug\PatternsOOP.exe.config
+F:\PR\TestProject\PatternsOOP\PatternsOOP\bin\Debug\PatternsOOP.exe.config
