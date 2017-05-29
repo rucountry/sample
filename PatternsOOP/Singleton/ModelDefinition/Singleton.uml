@@ -71,7 +71,7 @@
             Id="67168dc5-4d16-4805-9b6e-8d3c0c37cec1"
             name="obj"
             isLeaf="false"
-            isStatic="false"
+            isStatic="true"
             isReadOnly="false"
             isUnique="false"
             isDerived="false"
@@ -91,7 +91,7 @@
             Id="95690504-19f1-42b9-989a-ec3aa2192035"
             name="Create"
             isLeaf="false"
-            isStatic="false"
+            isStatic="true"
             isAbstract="false"
             concurrency="Sequential"
             isQuery="false">
@@ -110,7 +110,66 @@
               </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
+          <operation
+            Id="5196b6a4-f229-4e23-b97f-c9c7e891d383"
+            name="Singleton"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
         </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="42c3fafc-b3af-44ed-bfa0-b6a09700467b"
+        name="Client"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="0e07532e-be96-40da-b525-2bcde90fb22e"
+            isDerived="false"
+            sourceEndRoleName="Client"
+            targetEndRoleName="Singleton"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="da7c2220-de6e-46c5-8f3d-c957f616e8fc"
+              LastKnownName="Singleton"
+              LastKnownLocation="Singleton.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2372fe50-dd18-4496-99f2-9c79e075713a"
+                  name="Client"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6c82c61f-cf20-427b-a3cb-3e51b6ddb362"
+                  name="Singleton"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
       </class>
     </packageHasNamedElement>
   </packagedElements>

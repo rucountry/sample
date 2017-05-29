@@ -6,20 +6,6 @@
       <body>Древовидная структура. С листьями и ветками</body>
     </comment>
   </ownedCommentsInternal>
-  <profileInstances>
-    <packageHasProfileInstances Id="ba9b016e-c78b-4b56-80c2-a02f51977d79">
-      <profileInstance Id="e2ead8d4-bc30-4ccc-b405-ed54d0f9b3cc" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-      </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="14e9bcb9-ac89-4d29-b15f-0ad0393529a9">
-      <profileInstance Id="2dff5ec7-2a7e-4fde-98e4-47d33242b650" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-      </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-    </packageHasProfileInstances>
-  </profileInstances>
   <packagedElements>
     <logicalClassDesignerModelHasTypes>
       <class Id="16797707-8470-4093-9d58-02d48e08ac9b" name="Component" isAbstract="true" isLeaf="false" isActiveClass="false">
@@ -46,19 +32,6 @@
                   <elementDefinition Id="32259244-1232-4dde-bb17-aa204e8299eb" />
                   <type_NamedElement>
                     <referencedTypeMoniker Id="cccf649b-312b-4579-9a0e-f1dc58e9b17f" LastKnownName="Component" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
-          <operation Id="38f7d561-29af-484f-99ac-e03a8e84b3fa" name="Component" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
-            <elementDefinition Id="53f2bf00-d36c-41d2-aa01-c66e1d483135" />
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter Id="efec8c35-6a16-4df8-8a51-22cadf133efe" name="name" direction="In">
-                  <elementDefinition Id="d1934f75-f3fe-48af-90ca-d4258aedff83" />
-                  <type_NamedElement>
-                    <referencedTypeMoniker Id="ba892f4f-906a-4e5e-b03f-12c4ab5bb7e4" LastKnownName="String" />
                   </type_NamedElement>
                 </parameter>
               </operationHasOwnedParameters>
@@ -208,11 +181,6 @@
       </referencedType>
     </packageHasNamedElement>
     <packageHasNamedElement>
-      <referencedType Id="ba892f4f-906a-4e5e-b03f-12c4ab5bb7e4" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
-        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
-      </referencedType>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
       <referencedType Id="b2fef974-0728-4194-9310-bc18ab73ce21" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
         <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
       </referencedType>
@@ -240,5 +208,19 @@
   </packagedElements>
   <package Id="fb634c63-9c28-484d-89b1-4074784dd55c" name="Composite">
     <elementDefinition Id="5254032d-9cfe-4cd8-9aba-171b60350269" />
+    <profileInstances>
+      <packageHasProfileInstances Id="ba9b016e-c78b-4b56-80c2-a02f51977d79">
+        <profileInstance Id="e2ead8d4-bc30-4ccc-b405-ed54d0f9b3cc" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="14e9bcb9-ac89-4d29-b15f-0ad0393529a9">
+        <profileInstance Id="2dff5ec7-2a7e-4fde-98e4-47d33242b650" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </logicalClassDesignerModel>

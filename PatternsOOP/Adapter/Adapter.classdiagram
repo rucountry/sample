@@ -18,23 +18,9 @@
       <body>Адаптер уровня объектов</body>
     </comment>
   </ownedCommentsInternal>
-  <profileInstances>
-    <packageHasProfileInstances Id="36ebd418-092a-495d-a22a-3c5b8efc9efb">
-      <profileInstance Id="2d5d954c-db20-40eb-9306-cafe71480fb5" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-      </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="d2b6ed7d-d5aa-4635-8b4b-d44941c55133">
-      <profileInstance Id="a8ededd5-13d3-431c-999e-0d8690b060d1" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-      </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-    </packageHasProfileInstances>
-  </profileInstances>
   <packagedElements>
     <logicalClassDesignerModelHasTypes>
-      <Interface Id="f0a152d8-4cff-40d0-96d9-1a30434fbb39" name="Interface1" isAbstract="false" isLeaf="false">
+      <Interface Id="f0a152d8-4cff-40d0-96d9-1a30434fbb39" name="ITarget" isAbstract="false" isLeaf="false">
         <elementDefinition Id="40bf81b1-e3d9-4515-a7e4-77c8d52be2a7" />
         <ownedOperations>
           <operation Id="5cae0c6c-6a2e-4f39-804d-4774db55eaab" name="Request" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
@@ -48,7 +34,7 @@
         <elementDefinition Id="04b77e13-a64c-49c3-9352-59e3eff6aade" />
         <suppliersInternal>
           <interfaceRealization Id="e262382d-ec16-47ae-ace4-208268901dd6">
-            <interfaceMoniker Id="f0a152d8-4cff-40d0-96d9-1a30434fbb39" LastKnownName="Interface1" />
+            <interfaceMoniker Id="f0a152d8-4cff-40d0-96d9-1a30434fbb39" LastKnownName="ITarget" />
             <elementDefinition Id="db5b0d56-22d2-46bf-82ba-427df3654880" />
           </interfaceRealization>
         </suppliersInternal>
@@ -80,7 +66,7 @@
         <elementDefinition Id="709d59ac-befd-43fc-917e-0eba7f6fc83c" />
         <targetEnds>
           <association Id="2176e438-b7be-4506-ba9c-00136f7634e7" isDerived="false" sourceEndRoleName="Клиент" targetEndRoleName="Interface1" isLeaf="false" isAbstract="false">
-            <interfaceMoniker Id="f0a152d8-4cff-40d0-96d9-1a30434fbb39" LastKnownName="Interface1" />
+            <interfaceMoniker Id="f0a152d8-4cff-40d0-96d9-1a30434fbb39" LastKnownName="ITarget" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd Id="9ee4e26d-b684-4e08-9a86-e93d0fd6d6c4" name="Клиент" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
@@ -191,5 +177,19 @@
   </packagedElements>
   <package Id="0a1afd70-1a71-467f-9f0f-9aaada51cba5" name="Adapter">
     <elementDefinition Id="c3b0d8b1-369a-447f-84a8-18af1ee0f434" />
+    <profileInstances>
+      <packageHasProfileInstances Id="36ebd418-092a-495d-a22a-3c5b8efc9efb">
+        <profileInstance Id="2d5d954c-db20-40eb-9306-cafe71480fb5" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="d2b6ed7d-d5aa-4635-8b4b-d44941c55133">
+        <profileInstance Id="a8ededd5-13d3-431c-999e-0d8690b060d1" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </logicalClassDesignerModel>

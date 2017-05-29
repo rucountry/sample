@@ -3,10 +3,10 @@ F:\PR\TestProject\PatternsOOP\PatternsOOP\bin\Release\PatternsOOP.exe
 F:\PR\TestProject\PatternsOOP\PatternsOOP\bin\Release\PatternsOOP.pdb
 F:\PR\TestProject\PatternsOOP\PatternsOOP\obj\Release\PatternsOOP.exe
 F:\PR\TestProject\PatternsOOP\PatternsOOP\obj\Release\PatternsOOP.pdb
-F:\PR\TestProject\PatternsOOP\PatternsOOP\obj\Release\PatternsOOP.csprojResolveAssemblyReference.cache
 G:\PR\TestProject\PatternsOOP\PatternsOOP\bin\Release\PatternsOOP.exe.config
 G:\PR\TestProject\PatternsOOP\PatternsOOP\obj\Release\PatternsOOP.exe
 G:\PR\TestProject\PatternsOOP\PatternsOOP\obj\Release\PatternsOOP.pdb
 G:\PR\TestProject\PatternsOOP\PatternsOOP\bin\Release\PatternsOOP.exe
 G:\PR\TestProject\PatternsOOP\PatternsOOP\bin\Release\PatternsOOP.pdb
 G:\PR\TestProject\PatternsOOP\PatternsOOP\obj\Release\PatternsOOP.csprojResolveAssemblyReference.cache
+F:\PR\TestProject\PatternsOOP\PatternsOOP\obj\Release\PatternsOOP.csprojResolveAssemblyReference.cache

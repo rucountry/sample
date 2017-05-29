@@ -5,7 +5,7 @@
       <class Id="e416ff84-855e-47a8-a149-42ad7b2ee56e" name="Prototype" isAbstract="true" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="36c3f779-ba09-4dff-841f-d12780939fa5" />
         <ownedAttributesInternal>
-          <property Id="38b87a42-4802-41eb-94af-8d7bc8f129e1" name="id" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+          <property Id="38b87a42-4802-41eb-94af-8d7bc8f129e1" name="id" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="31dc965d-dd51-4bbb-aa96-50422f9c5b2d" />
             <type_NamedElement>
               <referencedTypeMoniker Id="5bc0a14e-85b5-4c8d-a06b-4a093b101e53" LastKnownName="String" />
@@ -93,6 +93,29 @@
             </ownedParameters>
           </operation>
         </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="9840b132-f258-4599-b976-1dd203995e5f" name="Client" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="7178622f-b509-44ce-93bf-b511e9e63d8f" />
+        <targetEnds>
+          <association Id="4dbc7436-9dc7-4ba1-855f-28f21594f668" isDerived="false" sourceEndRoleName="Client" targetEndRoleName="Prototype" isLeaf="false" isAbstract="false">
+            <classMoniker Id="e416ff84-855e-47a8-a149-42ad7b2ee56e" LastKnownName="Prototype" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="017aa223-0a5c-4270-99b7-9b1890fb0048" name="Client" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="13306ac0-7fb8-43b2-8c26-9d0c986411ae" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="34e48838-091b-4e6e-bf9d-60f191ac49ea" name="Prototype" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ef6ed960-b87c-41aa-af01-6034ffcd6416" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="59981617-86f5-4a28-804f-cd89631a9a9d" />
+          </association>
+        </targetEnds>
       </class>
     </logicalClassDesignerModelHasTypes>
   </packagedElements>

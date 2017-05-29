@@ -39,7 +39,7 @@
     <packageHasNamedElement>
       <Interface
         Id="40bf81b1-e3d9-4515-a7e4-77c8d52be2a7"
-        name="Interface1"
+        name="ITarget"
         isAbstract="false"
         isLeaf="false">
         <ownedOperations>
@@ -66,7 +66,7 @@
             Id="db5b0d56-22d2-46bf-82ba-427df3654880">
             <interfaceMoniker
               Id="40bf81b1-e3d9-4515-a7e4-77c8d52be2a7"
-              LastKnownName="Interface1"
+              LastKnownName="ITarget"
               LastKnownLocation="Adapter.uml" />
           </interfaceRealization>
         </suppliersInternal>
@@ -128,7 +128,7 @@
             isAbstract="false">
             <interfaceMoniker
               Id="40bf81b1-e3d9-4515-a7e4-77c8d52be2a7"
-              LastKnownName="Interface1"
+              LastKnownName="ITarget"
               LastKnownLocation="Adapter.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>

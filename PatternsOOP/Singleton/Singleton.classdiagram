@@ -1,19 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="b17c3d2f-524d-4ded-9ced-4bf6a5163f02" name="Singleton" linkedPackageId="98e36f1a-fb82-4bf2-9d0e-95893e4e96bc" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
-  <profileInstances>
-    <packageHasProfileInstances Id="13c1d3c1-10a3-49f9-89ba-e110e4d8967d">
-      <profileInstance Id="a66a99e2-a74f-4315-9d5f-9b5f73a02505" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-      </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="6122dd42-607e-449c-af4c-938a225b264f">
-      <profileInstance Id="6d17fd77-c0eb-4e27-9efb-90828285833f" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-      </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-    </packageHasProfileInstances>
-  </profileInstances>
   <packagedElements>
     <logicalClassDesignerModelHasTypes>
       <class Id="092d9146-b61d-4f80-a568-6e63e2ea9f86" name="Singleton" isAbstract="false" isLeaf="false" isActiveClass="false">
@@ -37,7 +23,7 @@
           </association>
         </targetEnds>
         <ownedAttributesInternal>
-          <property Id="d768ef5b-6551-4d06-9fc2-3d9b0a7e4370" name="obj" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+          <property Id="d768ef5b-6551-4d06-9fc2-3d9b0a7e4370" name="obj" isLeaf="false" isStatic="true" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="67168dc5-4d16-4805-9b6e-8d3c0c37cec1" />
             <type_NamedElement>
               <referencedTypeMoniker Id="c1e9fd16-14d3-46f2-af13-81308853a90c" LastKnownName="Singleton" />
@@ -45,7 +31,7 @@
           </property>
         </ownedAttributesInternal>
         <ownedOperationsInternal>
-          <operation Id="807e5bf8-4c6d-4fc3-9b78-cfd794dc7701" name="Create" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+          <operation Id="807e5bf8-4c6d-4fc3-9b78-cfd794dc7701" name="Create" isLeaf="false" isStatic="true" isAbstract="false" concurrency="Sequential" isQuery="false">
             <elementDefinition Id="95690504-19f1-42b9-989a-ec3aa2192035" />
             <ownedParameters>
               <operationHasOwnedParameters>
@@ -57,6 +43,9 @@
                 </parameter>
               </operationHasOwnedParameters>
             </ownedParameters>
+          </operation>
+          <operation Id="c8b5b3d9-56ad-49ed-8fea-22841a63723e" name="Singleton" visibility="Protected" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="5196b6a4-f229-4e23-b97f-c9c7e891d383" />
           </operation>
         </ownedOperationsInternal>
       </class>
@@ -71,8 +60,45 @@
         <elementDefinition Id="da7c2220-de6e-46c5-8f3d-c957f616e8fc" />
       </referencedType>
     </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="9d77dc5a-23b8-4ed5-858f-c189e28150b5" name="Client" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="42c3fafc-b3af-44ed-bfa0-b6a09700467b" />
+        <targetEnds>
+          <association Id="aa21b4c0-eb94-4c53-be11-9851b1e20e3d" isDerived="false" sourceEndRoleName="Client" targetEndRoleName="Singleton" isLeaf="false" isAbstract="false">
+            <classMoniker Id="092d9146-b61d-4f80-a568-6e63e2ea9f86" LastKnownName="Singleton" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="aba99276-6fbd-44b9-aea3-fc749c677d39" name="Client" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2372fe50-dd18-4496-99f2-9c79e075713a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a532fd57-6f42-4c6e-9885-92e5305a589d" name="Singleton" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6c82c61f-cf20-427b-a3cb-3e51b6ddb362" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="0e07532e-be96-40da-b525-2bcde90fb22e" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
   </packagedElements>
   <package Id="98e36f1a-fb82-4bf2-9d0e-95893e4e96bc" name="Singleton">
     <elementDefinition Id="13674f1f-0faf-4f7b-9f8e-194f4cbc9e6f" />
+    <profileInstances>
+      <packageHasProfileInstances Id="13c1d3c1-10a3-49f9-89ba-e110e4d8967d">
+        <profileInstance Id="a66a99e2-a74f-4315-9d5f-9b5f73a02505" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="6122dd42-607e-449c-af4c-938a225b264f">
+        <profileInstance Id="6d17fd77-c0eb-4e27-9efb-90828285833f" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </logicalClassDesignerModel>

@@ -51,10 +51,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractFactory\AbstractFactory.cs" />
-    <Compile Include="Builder\Builder.cs" />
+    <Compile Include="Порождающие\AbstractFactory\AbstractFactory.cs" />
+    <Compile Include="Порождающие\Builder\Builder.cs" />
+    <Compile Include="Порождающие\FactoryMethod\FactoryMethod.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Порождающие\Prototype\Prototype.cs" />
+    <Compile Include="Порождающие\Singleton\Singleton.cs" />
+    <Compile Include="Структурные\Adapter\Adapter.cs" />
+    <Compile Include="Структурные\Bridge\Bridge.cs" />
+    <Compile Include="Структурные\Composite\Composite.cs" />
+    <Compile Include="Структурные\Decorator\Decorator.cs" />
+    <Compile Include="Структурные\Facade\Facade.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

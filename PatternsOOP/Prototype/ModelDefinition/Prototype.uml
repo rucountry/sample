@@ -29,6 +29,7 @@
           <property
             Id="31dc965d-dd51-4bbb-aa96-50422f9c5b2d"
             name="id"
+            visibility="Private"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -185,6 +186,56 @@
             </ownedParameters>
           </operation>
         </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="7178622f-b509-44ce-93bf-b511e9e63d8f"
+        name="Client"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="59981617-86f5-4a28-804f-cd89631a9a9d"
+            isDerived="false"
+            sourceEndRoleName="Client"
+            targetEndRoleName="Prototype"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="36c3f779-ba09-4dff-841f-d12780939fa5"
+              LastKnownName="Prototype"
+              LastKnownLocation="Prototype.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="13306ac0-7fb8-43b2-8c26-9d0c986411ae"
+                  name="Client"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ef6ed960-b87c-41aa-af01-6034ffcd6416"
+                  name="Prototype"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
       </class>
     </packageHasNamedElement>
   </packagedElements>

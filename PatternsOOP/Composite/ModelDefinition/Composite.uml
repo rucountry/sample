@@ -83,30 +83,6 @@
             </ownedParameters>
           </operation>
           <operation
-            Id="53f2bf00-d36c-41d2-aa01-c66e1d483135"
-            name="Component"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false">
-            <ownedParameters>
-              <operationHasOwnedParameters>
-                <parameter
-                  Id="d1934f75-f3fe-48af-90ca-d4258aedff83"
-                  name="name"
-                  direction="In">
-                  <type_NamedElement>
-                    <primitiveTypeMoniker
-                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
-                      LastKnownName="String"
-                      LastKnownLocation="Composite.uml" />
-                  </type_NamedElement>
-                </parameter>
-              </operationHasOwnedParameters>
-            </ownedParameters>
-          </operation>
-          <operation
             Id="be8f9eee-e179-49ea-ae35-296b7f43d781"
             name="GetChild"
             isLeaf="false"
