@@ -51,18 +51,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Порождающие\AbstractFactory\AbstractFactory.cs" />
-    <Compile Include="Порождающие\Builder\Builder.cs" />
-    <Compile Include="Порождающие\FactoryMethod\FactoryMethod.cs" />
+    <Compile Include="1_Порождающие\AbstractFactory\AbstractFactory.cs" />
+    <Compile Include="1_Порождающие\Builder\Builder.cs" />
+    <Compile Include="1_Порождающие\FactoryMethod\FactoryMethod.cs" />
+    <Compile Include="3_Поведенческие\ChainOfResponsible\ChainOfResponsible.cs" />
+    <Compile Include="3_Поведенческие\Command\Command.cs" />
+    <Compile Include="3_Поведенческие\Interpreter\Interpreter.cs" />
+    <Compile Include="3_Поведенческие\Iterator\Iterator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Порождающие\Prototype\Prototype.cs" />
-    <Compile Include="Порождающие\Singleton\Singleton.cs" />
-    <Compile Include="Структурные\Adapter\Adapter.cs" />
-    <Compile Include="Структурные\Bridge\Bridge.cs" />
-    <Compile Include="Структурные\Composite\Composite.cs" />
-    <Compile Include="Структурные\Decorator\Decorator.cs" />
-    <Compile Include="Структурные\Facade\Facade.cs" />
+    <Compile Include="1_Порождающие\Prototype\Prototype.cs" />
+    <Compile Include="1_Порождающие\Singleton\Singleton.cs" />
+    <Compile Include="2_Структурные\Adapter\Adapter.cs" />
+    <Compile Include="2_Структурные\Bridge\Bridge.cs" />
+    <Compile Include="2_Структурные\Composite\Composite.cs" />
+    <Compile Include="2_Структурные\Decorator\Decorator.cs" />
+    <Compile Include="2_Структурные\Facade\Facade.cs" />
+    <Compile Include="2_Структурные\Flyweight\Flyweight.cs" />
+    <Compile Include="2_Структурные\Proxy\Proxy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -2,11 +2,17 @@
 using PatternsOOP.Adapter;
 using PatternsOOP.Bridge;
 using PatternsOOP.Builder;
+using PatternsOOP.ChainOfResponsible;
+using PatternsOOP.Command;
 using PatternsOOP.Composite;
 using PatternsOOP.Decorator;
 using PatternsOOP.Facade;
 using PatternsOOP.FactoryMethod;
+using PatternsOOP.Flyweight;
+using PatternsOOP.Interpreter;
+using PatternsOOP.Iterator;
 using PatternsOOP.Prototype;
+using PatternsOOP.Proxy;
 using PatternsOOP.Singleton;
 using System;
 using System.Collections;
@@ -32,7 +38,13 @@ namespace PatternsOOP
             //new ClientBridge().Run();               // bridge
             //new ClientComposite().Run();            // composite
             //new ClientDecorator().Run();            // decorator
-            //new ClientFacade().Run();                 // facade
+            //new ClientFacade().Run();               // facade
+            //new ClientFlyweight().Run();            // flyweight
+            //new ClientProxy().Run();                // Proxy
+            //new ClientChain().Run();                // Chain of Responsible
+            //new ClientCommand().Run();              // Command
+            //new ClientInterpreter().Run();          // Interpreter
+            //new ClientIterator().Run();             // Iterator
             Console.ReadLine();
         }
     }

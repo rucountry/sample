@@ -5,10 +5,10 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{0f5d4665-0d25-4a46-881d-cd57843fb97f}</ProjectGuid>
+    <ProjectGuid>{95f234f9-78aa-496d-8b27-de5c40a8b9c6}</ProjectGuid>
     <ArchitectureToolsVersion>2.0.0.0</ArchitectureToolsVersion>
-    <Name>1_ChainOfResponsible</Name>
-    <RootNamespace>ChainOfResponsible</RootNamespace>
+    <Name>11_Visitor</Name>
+    <RootNamespace>11_Visitor</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <OutputPath>bin\Debug\</OutputPath>
@@ -23,14 +23,7 @@
   <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
   <ItemGroup>
     <Folder Include="ModelDefinition\" />
-    <Content Include="ChainOfResponsible.classdiagram">
-      <SubType>Content</SubType>
-    </Content>
-    <Content Include="ChainOfResponsible.classdiagram.layout">
-      <SubType>Content</SubType>
-      <DependentUpon>ChainOfResponsible.classdiagram</DependentUpon>
-    </Content>
-    <Content Include="ModelDefinition\ChainOfResponsible.uml">
+    <Content Include="ModelDefinition\11_Visitor.uml">
       <SubType>Content</SubType>
     </Content>
   </ItemGroup>

@@ -5,10 +5,10 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{0f5d4665-0d25-4a46-881d-cd57843fb97f}</ProjectGuid>
+    <ProjectGuid>{bb10c8f5-a019-4eb6-b189-a56a65e8e516}</ProjectGuid>
     <ArchitectureToolsVersion>2.0.0.0</ArchitectureToolsVersion>
-    <Name>1_ChainOfResponsible</Name>
-    <RootNamespace>ChainOfResponsible</RootNamespace>
+    <Name>3_Interpreter</Name>
+    <RootNamespace>3_Interpretator</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <OutputPath>bin\Debug\</OutputPath>
@@ -23,14 +23,14 @@
   <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
   <ItemGroup>
     <Folder Include="ModelDefinition\" />
-    <Content Include="ChainOfResponsible.classdiagram">
+    <Content Include="Interpreter.classdiagram">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="ChainOfResponsible.classdiagram.layout">
+    <Content Include="Interpreter.classdiagram.layout">
       <SubType>Content</SubType>
-      <DependentUpon>ChainOfResponsible.classdiagram</DependentUpon>
+      <DependentUpon>Interpreter.classdiagram</DependentUpon>
     </Content>
-    <Content Include="ModelDefinition\ChainOfResponsible.uml">
+    <Content Include="ModelDefinition\3_Interpreter.uml">
       <SubType>Content</SubType>
     </Content>
   </ItemGroup>

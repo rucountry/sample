@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
   dslVersion="1.0.0.0"
   Id="6c68d42a-f3eb-4b5a-bc1f-49b17318a694"
   name="4_Iterator" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
@@ -17,28 +17,488 @@
         name="StandardProfileL3" />
     </packageHasProfileInstances>
   </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="f3cdd0df-9b5c-488f-8d3c-0aaa6b51199c"
+        name="IEnumerable"
+        isAbstract="false"
+        isLeaf="false">
+        <ownedOperations>
+          <operation
+            Id="f7de2175-4a00-4ba7-ad41-f7495fc5eee5"
+            name="GetEnumerator"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b3e6b52a-3156-4017-b4d3-c4423d77ec0e"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="6299f723-cbb3-4482-a534-f2a0f0c0052d"
+                      LastKnownName="IEnumerator"
+                      LastKnownLocation="4_Iterator.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="931c1ca0-c8f3-45a4-8b02-d272492069cd"
+            name="Count"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="6299f723-cbb3-4482-a534-f2a0f0c0052d"
+        name="IEnumerator"
+        isAbstract="false"
+        isLeaf="false">
+        <ownedOperations>
+          <operation
+            Id="e62334d4-970f-4367-8c2a-33f9576b3ecb"
+            name="MoveNext"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b522323a-89c2-4f48-b765-2116f554d944"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="4_Iterator.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="d9aefa46-b290-48eb-b367-4adf12f5854b"
+            name="Reset"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f1f7cf5f-445b-4ff3-9f7a-cbb9ebd2fa72"
+                  direction="Return">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="db0ba254-767c-49cc-9baa-022bbe9a4e25"
+                      LastKnownName="void"
+                      LastKnownLocation="4_Iterator.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="6cc914ec-8a61-4d59-8365-62db38c739eb"
+            name="Curent"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f8c293f6-db8f-40eb-9c5e-b174c582ddc0"
+                  direction="Return">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="9a3a5d61-0283-4ad5-8e34-f8a94faf96a4"
+                      LastKnownName="object"
+                      LastKnownLocation="4_Iterator.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="65b96f0d-85c7-465f-af07-1fdbf26702f6"
+        name="Enumerable"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="94b21d53-ea6b-453b-90f4-8a6dc240feff">
+            <interfaceMoniker
+              Id="f3cdd0df-9b5c-488f-8d3c-0aaa6b51199c"
+              LastKnownName="IEnumerable"
+              LastKnownLocation="4_Iterator.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <targetEnds>
+          <association
+            Id="15075e21-1f06-405a-8975-9c175b185c5b"
+            isDerived="false"
+            sourceEndRoleName="Enumerable"
+            targetEndRoleName="IEnumerator"
+            isLeaf="false"
+            isAbstract="false">
+            <interfaceMoniker
+              Id="6299f723-cbb3-4482-a534-f2a0f0c0052d"
+              LastKnownName="IEnumerator"
+              LastKnownLocation="4_Iterator.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="62e50c72-62e4-4c91-b777-d35dd33c620c"
+                  name="Enumerable"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f33d5a38-ab3c-4e17-a2bc-f77051e0be7c"
+                  name="IEnumerator"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="fbcf41e5-789b-40ec-ad77-ed029de9c24f"
+            name="items"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="8461c4dd-04c2-4520-96b8-aa573fa88564"
+                LastKnownName="ArrayList"
+                LastKnownLocation="4_Iterator.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="e0a3ac6e-a69d-42d1-9734-13d825e0f0e1"
+            name="GetEnumerator"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="69cbd7f4-10bb-4ebe-a4b6-9931aaac1042"
+                  direction="Return">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="6299f723-cbb3-4482-a534-f2a0f0c0052d"
+                      LastKnownName="IEnumerator"
+                      LastKnownLocation="4_Iterator.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="00cc8031-4f65-43d4-9861-4bd6a36e2e26"
+            name="Count"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="b7bdd990-ffde-47a6-ac6d-624507992a13"
+        name="Enumerator"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="ac58763d-673e-4d05-9285-77fe5a9e56e7">
+            <interfaceMoniker
+              Id="6299f723-cbb3-4482-a534-f2a0f0c0052d"
+              LastKnownName="IEnumerator"
+              LastKnownLocation="4_Iterator.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="950b40a6-598c-4a46-a51a-09fb7a230007"
+            name="current"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="4_Iterator.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="3eaf2c8b-1742-42b3-bd8f-cab879721575"
+            name="enumerable"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="f3cdd0df-9b5c-488f-8d3c-0aaa6b51199c"
+                LastKnownName="IEnumerable"
+                LastKnownLocation="4_Iterator.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="a30b0120-ae8a-405f-b37e-385859afc48d"
+            name="MoveNext"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="89fd181c-6e88-4170-a81b-4f252b81d8ca"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="4_Iterator.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="e8037268-3820-4573-a00e-17112f282f2e"
+            name="Reset"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="49cad2b8-9f4f-4e0b-b960-8304100bd25c"
+                  direction="Return">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="db0ba254-767c-49cc-9baa-022bbe9a4e25"
+                      LastKnownName="void"
+                      LastKnownLocation="4_Iterator.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="943f4221-3b38-46be-b578-eed785b0b52c"
+            name="Curent"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="40155fcb-ae21-45c1-8c84-14829dcb0302"
+                  direction="Return">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="9a3a5d61-0283-4ad5-8e34-f8a94faf96a4"
+                      LastKnownName="object"
+                      LastKnownLocation="4_Iterator.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="8461c4dd-04c2-4520-96b8-aa573fa88564"
+        name="ArrayList" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="9a3a5d61-0283-4ad5-8e34-f8a94faf96a4"
+        name="object" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="db0ba254-767c-49cc-9baa-022bbe9a4e25"
+        name="void" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="7e84bf80-7445-4552-af78-12abe2cd1f41"
+        name="Client"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="4ced3efd-7717-4e35-b0a3-ea74c29b6728"
+            isDerived="false"
+            sourceEndRoleName="Client"
+            targetEndRoleName="IEnumerable"
+            isLeaf="false"
+            isAbstract="false">
+            <interfaceMoniker
+              Id="f3cdd0df-9b5c-488f-8d3c-0aaa6b51199c"
+              LastKnownName="IEnumerable"
+              LastKnownLocation="4_Iterator.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="875e5539-b038-4a2b-a4d5-ae3f3400f492"
+                  name="Client"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7256376f-639f-480f-a3ee-a6fd8c3e46c0"
+                  name="IEnumerable"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="bc8a8e96-b54c-4ddf-9539-9f9c7501308e"
+            isDerived="false"
+            sourceEndRoleName="Client"
+            targetEndRoleName="IEnumerator"
+            isLeaf="false"
+            isAbstract="false">
+            <interfaceMoniker
+              Id="6299f723-cbb3-4482-a534-f2a0f0c0052d"
+              LastKnownName="IEnumerator"
+              LastKnownLocation="4_Iterator.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9d037d94-1d99-4ce0-8421-f4488294b739"
+                  name="Client"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c8d8e60b-191a-4c96-9951-fb48e57ece7e"
+                  name="IEnumerator"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
   <primitiveType
     Id="220a3521-e091-4221-bae9-3ef9018e845c"
     name="Integer"
     isAbstract="false"
-    isTemplate="false"
     isLeaf="false" />
   <primitiveType
     Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
     name="Boolean"
     isAbstract="false"
-    isTemplate="false"
     isLeaf="false" />
   <primitiveType
     Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
     name="String"
     isAbstract="false"
-    isTemplate="false"
     isLeaf="false" />
   <primitiveType
     Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
     name="UnlimitedNatural"
     isAbstract="false"
-    isTemplate="false"
     isLeaf="false" />
 </modelStoreModel>
