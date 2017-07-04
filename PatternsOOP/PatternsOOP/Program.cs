@@ -11,6 +11,8 @@ using PatternsOOP.FactoryMethod;
 using PatternsOOP.Flyweight;
 using PatternsOOP.Interpreter;
 using PatternsOOP.Iterator;
+using PatternsOOP.Mediator;
+using PatternsOOP.Memento;
 using PatternsOOP.Prototype;
 using PatternsOOP.Proxy;
 using PatternsOOP.Singleton;
@@ -45,6 +47,8 @@ namespace PatternsOOP
             //new ClientCommand().Run();              // Command
             //new ClientInterpreter().Run();          // Interpreter
             //new ClientIterator().Run();             // Iterator
+            //new ClientMediator().Run();             // Mediator
+            new ClientMemento().Run();                // Memento
             Console.ReadLine();
         }
     }

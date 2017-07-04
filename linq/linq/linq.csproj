@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{004C2AF5-0635-4C25-A5D1-D250012ACFFD}</ProjectGuid>
+    <ProjectGuid>{B05253D0-6B66-460A-B0F5-B1A9A5C51881}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PatternsOOP</RootNamespace>
-    <AssemblyName>PatternsOOP</AssemblyName>
+    <RootNamespace>linq</RootNamespace>
+    <AssemblyName>linq</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,16 +31,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject />
-  </PropertyGroup>
-  <PropertyGroup>
-    <SignAssembly>false</SignAssembly>
-  </PropertyGroup>
-  <PropertyGroup>
-    <AssemblyOriginatorKeyFile>
-    </AssemblyOriginatorKeyFile>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -51,31 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="1_Порождающие\AbstractFactory\AbstractFactory.cs" />
-    <Compile Include="1_Порождающие\Builder\Builder.cs" />
-    <Compile Include="1_Порождающие\FactoryMethod\FactoryMethod.cs" />
-    <Compile Include="3_Поведенческие\ChainOfResponsible\ChainOfResponsible.cs" />
-    <Compile Include="3_Поведенческие\Command\Command.cs" />
-    <Compile Include="3_Поведенческие\Interpreter\Interpreter.cs" />
-    <Compile Include="3_Поведенческие\Iterator\Iterator.cs" />
-    <Compile Include="3_Поведенческие\Mediator\Mediator.cs" />
-    <Compile Include="3_Поведенческие\Memento\Memento.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="1_Порождающие\Prototype\Prototype.cs" />
-    <Compile Include="1_Порождающие\Singleton\Singleton.cs" />
-    <Compile Include="2_Структурные\Adapter\Adapter.cs" />
-    <Compile Include="2_Структурные\Bridge\Bridge.cs" />
-    <Compile Include="2_Структурные\Composite\Composite.cs" />
-    <Compile Include="2_Структурные\Decorator\Decorator.cs" />
-    <Compile Include="2_Структурные\Facade\Facade.cs" />
-    <Compile Include="2_Структурные\Flyweight\Flyweight.cs" />
-    <Compile Include="2_Структурные\Proxy\Proxy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

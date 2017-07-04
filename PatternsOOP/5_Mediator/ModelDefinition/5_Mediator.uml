@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
   dslVersion="1.0.0.0"
   Id="a080c0db-ef15-48dd-ab67-db61fad0fcac"
   name="5_Mediator" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
@@ -17,28 +17,422 @@
         name="StandardProfileL3" />
     </packageHasProfileInstances>
   </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <Interface
+        Id="c3fce632-c7b7-4dc0-be71-05be8598ae12"
+        name="IColleague"
+        isAbstract="false"
+        isLeaf="false">
+        <ownedOperations>
+          <operation
+            Id="27bbb982-bebb-446a-a726-0f041ac95f1b"
+            name="Send"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="3300871e-34ad-4928-aacd-dc574ee2cea3"
+            name="Notify"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c668a6f4-d8b4-4909-a202-cfbf46806615"
+                  name="string s"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="1340e555-e79e-4e2b-8d23-0fa88909f41a"
+        name="Colleague1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="b9f137c8-0169-49e0-959e-92b158c7a158">
+            <interfaceMoniker
+              Id="c3fce632-c7b7-4dc0-be71-05be8598ae12"
+              LastKnownName="IColleague"
+              LastKnownLocation="5_Mediator.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="348d7514-8cf3-4bc6-8492-eb2828e6c495"
+            name="state"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="5_Mediator.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="432d1ad7-f9be-4d82-b3c0-a9159fec0246"
+            name="mediator"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="83083713-d5a8-4d6b-a132-c4b92ff89d7c"
+                LastKnownName="Mediator"
+                LastKnownLocation="5_Mediator.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="201952c7-b3ee-43fb-8949-bcf63fe08f60"
+            name="Send"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="3bc5f4d7-55f5-4918-ac8c-0a551514e4ee"
+            name="Notify"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="40e93fb4-3c8b-4a7f-a302-55bffae5abf4"
+                  name="string s"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c9541ec8-ee1e-412c-bb30-9d327175cbd1"
+        name="Colleague2"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="4d957cdb-957a-4734-8b16-892f18810b6a">
+            <interfaceMoniker
+              Id="c3fce632-c7b7-4dc0-be71-05be8598ae12"
+              LastKnownName="IColleague"
+              LastKnownLocation="5_Mediator.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="3bf6644f-5a65-4fd1-a1d5-5a622eeb072d"
+            name="mediator"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="83083713-d5a8-4d6b-a132-c4b92ff89d7c"
+                LastKnownName="Mediator"
+                LastKnownLocation="5_Mediator.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="c8f0eec2-81a2-4ee8-8b3f-1484ed411703"
+            name="state"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="5_Mediator.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="017164ec-ebb3-40b6-b9b2-0f95de60192b"
+            name="Send"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="3977d500-625b-41d0-9aba-693136dd9e91"
+            name="Notify"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a54462e4-621b-4cd1-a808-7c9fc22e8164"
+                  name="string s"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="83083713-d5a8-4d6b-a132-c4b92ff89d7c"
+        name="Mediator"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="86bcd2e0-4bde-4b74-b80d-b9b88894becb"
+            isDerived="false"
+            sourceEndRoleName="Mediator"
+            targetEndRoleName="Colleague1"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="1340e555-e79e-4e2b-8d23-0fa88909f41a"
+              LastKnownName="Colleague1"
+              LastKnownLocation="5_Mediator.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="01474032-906e-4df0-b971-cd6ac9093b2b"
+                  name="Mediator"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1a8a2882-3353-4d38-81ff-1aaac4b1812f"
+                  name="Colleague1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="8a15c1a6-2c0e-48e7-80e9-88bf7a74ab96"
+            isDerived="false"
+            sourceEndRoleName="Mediator"
+            targetEndRoleName="Colleague2"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="c9541ec8-ee1e-412c-bb30-9d327175cbd1"
+              LastKnownName="Colleague2"
+              LastKnownLocation="5_Mediator.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9cfbace9-7132-4e71-9e72-c859074a32b3"
+                  name="Mediator"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="60836d2f-ee10-4b46-9175-e9999480b1bb"
+                  name="Colleague2"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedOperationsInternal>
+          <operation
+            Id="7bf31e9d-e00e-44bb-882a-b1fa1f9e6271"
+            name="Operation"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="a5f8308e-7097-4f9c-8713-91c6ff759c71"
+        name="Client"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="5cbc6390-27c9-4a8c-bf8e-359da0920d76"
+            isDerived="false"
+            sourceEndRoleName="Client"
+            targetEndRoleName="IColleague"
+            isLeaf="false"
+            isAbstract="false">
+            <interfaceMoniker
+              Id="c3fce632-c7b7-4dc0-be71-05be8598ae12"
+              LastKnownName="IColleague"
+              LastKnownLocation="5_Mediator.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="aca92314-3769-48fa-9ce6-f0b4664e2d10"
+                  name="Client"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="804e8ecc-ba89-4853-b7fe-c85a355f672d"
+                  name="IColleague"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="a6c27a53-1f36-4636-9005-fd548a3032a0"
+            isDerived="false"
+            sourceEndRoleName="Client"
+            targetEndRoleName="Mediator"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="83083713-d5a8-4d6b-a132-c4b92ff89d7c"
+              LastKnownName="Mediator"
+              LastKnownLocation="5_Mediator.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2f4e5bd8-8c83-4467-bf16-638c5d69ee2b"
+                  name="Client"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a55f41d5-25a8-416c-8cdf-1426523f7150"
+                  name="Mediator"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
   <primitiveType
     Id="220a3521-e091-4221-bae9-3ef9018e845c"
     name="Integer"
     isAbstract="false"
-    isTemplate="false"
     isLeaf="false" />
   <primitiveType
     Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
     name="Boolean"
     isAbstract="false"
-    isTemplate="false"
     isLeaf="false" />
   <primitiveType
     Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
     name="String"
     isAbstract="false"
-    isTemplate="false"
     isLeaf="false" />
   <primitiveType
     Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
     name="UnlimitedNatural"
     isAbstract="false"
-    isTemplate="false"
     isLeaf="false" />
 </modelStoreModel>
