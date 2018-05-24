@@ -13,9 +13,11 @@ using PatternsOOP.Interpreter;
 using PatternsOOP.Iterator;
 using PatternsOOP.Mediator;
 using PatternsOOP.Memento;
+using PatternsOOP.Observer;
 using PatternsOOP.Prototype;
 using PatternsOOP.Proxy;
 using PatternsOOP.Singleton;
+using PatternsOOP.Strategy;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -30,26 +32,28 @@ namespace PatternsOOP
     {
         static void Main(string[] args)
         {
-            new ClientAbstractFactory().Run();      // abstract factory
-            //new ClientBuilder().Run();              // builder
-            //new ClientFactoryMethod().Run();        // factory method
-            //new ClientPrototype().Run();            // prototype
-            //new ClientSingleton().Run();            // singleton
-            //new ClientAdapterV1().Run();            // adapter 1
-            //new ClientAdapterV2().Run();            // adapter 2
-            //new ClientBridge().Run();               // bridge
-            //new ClientComposite().Run();            // composite
-            //new ClientDecorator().Run();            // decorator
-            //new ClientFacade().Run();               // facade
-            //new ClientFlyweight().Run();            // flyweight
-            //new ClientProxy().Run();                // Proxy
-            //new ClientChain().Run();                // Chain of Responsible
-            //new ClientCommand().Run();              // Command
-            //new ClientInterpreter().Run();          // Interpreter
-            //new ClientIterator().Run();             // Iterator
-            //new ClientMediator().Run();             // Mediator
-            //new ClientMemento().Run();                // Memento
-            Console.ReadLine();
+			//new ClientAbstractFactory().Run();      // abstract factory
+			//new ClientBuilder().Run();              // builder
+			//new ClientFactoryMethod().Run();        // factory method
+			//new ClientPrototype().Run();            // prototype
+			//new ClientSingleton().Run();            // singleton
+			//new ClientAdapterV1().Run();            // adapter 1
+			//new ClientAdapterV2().Run();            // adapter 2
+			//new ClientBridge().Run();               // bridge
+			//new ClientComposite().Run();            // composite
+			//new ClientDecorator().Run();            // decorator
+			//new ClientFacade().Run();               // facade
+			//new ClientFlyweight().Run();            // flyweight
+			//new ClientProxy().Run();                // Proxy
+			//new ClientChain().Run();                // Chain of Responsible
+			//new ClientCommand().Run();              // Command
+			//new ClientInterpreter().Run();          // Interpreter
+			//new ClientIterator().Run();             // Iterator
+			//new ClientMediator().Run();             // Mediator
+			//new ClientMemento().Run();                // Memento
+			//new ClientStrategy().Run();                // Strategy
+			new ClientObserver().Run();                // Observer
+			Console.ReadLine();
         }
     }
 }

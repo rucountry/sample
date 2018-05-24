@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PatternsOOP._3_Поведенческие.Strategy
+namespace PatternsOOP.Strategy
 {
 	public interface IDrink
 	{

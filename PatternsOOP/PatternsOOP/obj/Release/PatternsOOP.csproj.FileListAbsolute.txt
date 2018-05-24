@@ -10,3 +10,4 @@ G:\PR\TestProject\PatternsOOP\PatternsOOP\bin\Release\PatternsOOP.exe
 G:\PR\TestProject\PatternsOOP\PatternsOOP\bin\Release\PatternsOOP.pdb
 G:\PR\TestProject\PatternsOOP\PatternsOOP\obj\Release\PatternsOOP.csprojResolveAssemblyReference.cache
 F:\PR\TestProject\PatternsOOP\PatternsOOP\obj\Release\PatternsOOP.csprojResolveAssemblyReference.cache
+G:\PR\TestProject\PatternsOOP\PatternsOOP\obj\Release\PatternsOOP.csproj.CoreCompileInputs.cache
