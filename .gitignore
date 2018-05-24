@@ -20,3 +20,10 @@
 
 /PatternsOOP/PatternsOOP/bin
 /.vs
+
+/.vs/*.sqlite
+
+/.vs/TestProject/v15
+
+/.vs/TestProject/v15/.suo
+v15
