@@ -30,7 +30,7 @@ namespace PatternsOOP
     {
         static void Main(string[] args)
         {
-            //new ClientAbstractFactory().Run();      // abstract factory
+            new ClientAbstractFactory().Run();      // abstract factory
             //new ClientBuilder().Run();              // builder
             //new ClientFactoryMethod().Run();        // factory method
             //new ClientPrototype().Run();            // prototype
@@ -48,7 +48,7 @@ namespace PatternsOOP
             //new ClientInterpreter().Run();          // Interpreter
             //new ClientIterator().Run();             // Iterator
             //new ClientMediator().Run();             // Mediator
-            new ClientMemento().Run();                // Memento
+            //new ClientMemento().Run();                // Memento
             Console.ReadLine();
         }
     }

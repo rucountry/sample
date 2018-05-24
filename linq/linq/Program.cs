@@ -273,7 +273,7 @@ namespace linq
 
 
             #region GroupJoin 1
-            /*
+            
             int[] list = { 2, 555, 3, 3, 55 };
             int[] list2 = { 21, 555, 55, 41, 55 };
             var collection = list.GroupJoin(
@@ -289,7 +289,7 @@ namespace linq
                     Console.WriteLine("-----" + item);
                 }
             }
-            */
+            
             #endregion
 
             #region GroupJoin 2

@@ -5,3 +5,9 @@ F:\PR\TestProject\PatternsOOP\PatternsOOP\bin\Debug\PatternsOOP.exe.config
 F:\PR\TestProject\PatternsOOP\PatternsOOP\bin\Debug\PatternsOOP.exe
 F:\PR\TestProject\PatternsOOP\PatternsOOP\obj\Debug\PatternsOOP.exe
 F:\PR\TestProject\PatternsOOP\PatternsOOP\obj\Debug\PatternsOOP.csprojResolveAssemblyReference.cache
+G:\PR\TestProject\PatternsOOP\PatternsOOP\obj\Debug\PatternsOOP.exe
+G:\PR\TestProject\PatternsOOP\PatternsOOP\obj\Debug\PatternsOOP.pdb
+G:\PR\TestProject\PatternsOOP\PatternsOOP\bin\Debug\PatternsOOP.exe
+G:\PR\TestProject\PatternsOOP\PatternsOOP\bin\Debug\PatternsOOP.pdb
+G:\PR\TestProject\PatternsOOP\PatternsOOP\obj\Debug\PatternsOOP.csprojResolveAssemblyReference.cache
+G:\PR\TestProject\PatternsOOP\PatternsOOP\obj\Debug\PatternsOOP.csproj.CoreCompileInputs.cache

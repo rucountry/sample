@@ -9,23 +9,23 @@ namespace PatternsOOP.Singleton
     /*Порождение только единичного объекта*/
     class Singleton
     {
-        private static Singleton obj;
-        private static object sync = new object();
-        protected Singleton() { }
+        private static Singleton _objsingleton;
+        private static object syncRoot = new object();
+        private Singleton() { }
 
         public int ID { get; set; }
 
         public static Singleton Create()
         {
-            if (obj == null)
+            if (_objsingleton == null)
             {
-                lock (sync)
+                lock (syncRoot)
                 {
-                    if (obj == null)
-                        obj = new Singleton();
+                    if (_objsingleton == null)
+						_objsingleton = new Singleton();
                 }
             }
-            return obj;
+            return _objsingleton;
         }
     }
 

@@ -259,7 +259,7 @@ namespace PatternsOOP.Builder
         public void Run()
         {
             Product product;
-            BuilderLipton bl = new BuilderLipton();
+			Builder bl = new BuilderLipton();
             Director director = new Director(bl);
             director.ConstructProduct();
             product = bl.CreateProduct();

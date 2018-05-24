@@ -34,9 +34,18 @@ namespace PatternsOOP.AbstractFactory
         {
             Name = name;
         }
-        public abstract void Pour(AbstractProductWater aw);
-        public abstract void Glue(AbstractProductLabel al);
-        public abstract void Twist(AbstractProductCap ac);
+		public void Pour(AbstractProductWater aw)
+		{
+			Console.WriteLine("Наливаем в бутылку жидкость " + aw.Name);
+		}
+		public void Glue(AbstractProductLabel al)
+		{
+			Console.WriteLine("Приклеиваем к бутылке этикетку " + al.Name);
+		}
+		public void Twist(AbstractProductCap ac)
+		{
+			Console.WriteLine("Закручиваем на бутылке крышку " + ac.Name);
+		}
     }
     // Абстрактный класс крышки
     abstract class AbstractProductCap
@@ -77,56 +86,14 @@ namespace PatternsOOP.AbstractFactory
     class ConcreteProductBottlePepsi : AbstractProductBottle
     {
         public ConcreteProductBottlePepsi() : base("Pepsi") { }
-        public override void Pour(AbstractProductWater aw)
-        {
-            Console.WriteLine("Наливаем в бутылку жидкость " + aw.Name);
-        }
-
-        public override void Glue(AbstractProductLabel al)
-        {
-            Console.WriteLine("Приклеиваем к бутылке этикетку " + al.Name);
-        }
-
-        public override void Twist(AbstractProductCap ac)
-        {
-            Console.WriteLine("Закручиваем на бутылке крышку " + ac.Name);
-        }
     }
     class ConcreteProductBottleCocaCola : AbstractProductBottle
     {
         public ConcreteProductBottleCocaCola() : base("CocaCola") { }
-        public override void Pour(AbstractProductWater aw)
-        {
-            Console.WriteLine("Наливаем в бутылку жидкость " + aw.Name);
-        }
-
-        public override void Glue(AbstractProductLabel al)
-        {
-            Console.WriteLine("Приклеиваем к бутылке этикетку " + al.Name);
-        }
-
-        public override void Twist(AbstractProductCap ac)
-        {
-            Console.WriteLine("Закручиваем на бутылке крышку " + ac.Name);
-        }
     }
     class ConcreteProductBottleLipton : AbstractProductBottle
     {
         public ConcreteProductBottleLipton() : base("Lipton") { }
-        public override void Pour(AbstractProductWater aw)
-        {
-            Console.WriteLine("Наливаем в бутылку жидкость " + aw.Name);
-        }
-
-        public override void Glue(AbstractProductLabel al)
-        {
-            Console.WriteLine("Приклеиваем к бутылке этикетку " + al.Name);
-        }
-
-        public override void Twist(AbstractProductCap ac)
-        {
-            Console.WriteLine("Закручиваем на бутылке крышку " + ac.Name);
-        }
     }
 
 

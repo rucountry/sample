@@ -19,7 +19,7 @@ namespace ManualResetEventNS
 			mre.WaitOne();
 			Console.WriteLine("Сигнал от потока А получен. Продолжаем работу");
 
-			mre.Reset(); 
+			//mre.Reset(); 
 
 			new ClassB(mre);
 			Console.WriteLine("Ожидаем от потока B сигнал о том, что можно продолжить");

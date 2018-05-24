@@ -54,6 +54,7 @@
     <Compile Include="1_Порождающие\AbstractFactory\AbstractFactory.cs" />
     <Compile Include="1_Порождающие\Builder\Builder.cs" />
     <Compile Include="1_Порождающие\FactoryMethod\FactoryMethod.cs" />
+    <Compile Include="1_Порождающие\Singleton\Singleton2.cs" />
     <Compile Include="3_Поведенческие\ChainOfResponsible\ChainOfResponsible.cs" />
     <Compile Include="3_Поведенческие\Command\Command.cs" />
     <Compile Include="3_Поведенческие\Interpreter\Interpreter.cs" />
