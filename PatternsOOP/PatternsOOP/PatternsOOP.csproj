@@ -61,6 +61,7 @@
     <Compile Include="3_Поведенческие\Iterator\Iterator.cs" />
     <Compile Include="3_Поведенческие\Mediator\Mediator.cs" />
     <Compile Include="3_Поведенческие\Memento\Memento.cs" />
+    <Compile Include="3_Поведенческие\Strategy\Strategy.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="1_Порождающие\Prototype\Prototype.cs" />
