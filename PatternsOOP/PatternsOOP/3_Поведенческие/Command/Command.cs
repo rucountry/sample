@@ -29,7 +29,6 @@ namespace PatternsOOP.Command
     {
         protected Recever recever;
         public abstract void Execute();
-
     }
     internal sealed class ConcreteCommandA : Command
     {

@@ -18,6 +18,7 @@ using PatternsOOP.Prototype;
 using PatternsOOP.Proxy;
 using PatternsOOP.Singleton;
 using PatternsOOP.Strategy;
+using PatternsOOP.TemplateMethod;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -50,9 +51,10 @@ namespace PatternsOOP
 			//new ClientInterpreter().Run();          // Interpreter
 			//new ClientIterator().Run();             // Iterator
 			//new ClientMediator().Run();             // Mediator
-			//new ClientMemento().Run();                // Memento
-			//new ClientStrategy().Run();                // Strategy
-			new ClientObserver().Run();                // Observer
+			//new ClientMemento().Run();              // Memento
+			//new ClientStrategy().Run();             // Strategy
+			//new ClientObserver().Run();             // Observer
+			new ClientTemplateMethod().Run();         // TemplateMethod
 			Console.ReadLine();
         }
     }
