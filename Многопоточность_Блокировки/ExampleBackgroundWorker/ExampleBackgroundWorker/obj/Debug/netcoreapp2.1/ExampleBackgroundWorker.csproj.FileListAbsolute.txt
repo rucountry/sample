@@ -1,0 +1,11 @@
+G:\PR\TestProject\Многопоточность_Блокировки\ExampleBackgroundWorker\bin\Debug\netcoreapp2.1\ExampleBackgroundWorker.deps.json
+G:\PR\TestProject\Многопоточность_Блокировки\ExampleBackgroundWorker\bin\Debug\netcoreapp2.1\ExampleBackgroundWorker.runtimeconfig.json
+G:\PR\TestProject\Многопоточность_Блокировки\ExampleBackgroundWorker\bin\Debug\netcoreapp2.1\ExampleBackgroundWorker.runtimeconfig.dev.json
+G:\PR\TestProject\Многопоточность_Блокировки\ExampleBackgroundWorker\bin\Debug\netcoreapp2.1\ExampleBackgroundWorker.dll
+G:\PR\TestProject\Многопоточность_Блокировки\ExampleBackgroundWorker\bin\Debug\netcoreapp2.1\ExampleBackgroundWorker.pdb
+G:\PR\TestProject\Многопоточность_Блокировки\ExampleBackgroundWorker\obj\Debug\netcoreapp2.1\ExampleBackgroundWorker.csprojAssemblyReference.cache
+G:\PR\TestProject\Многопоточность_Блокировки\ExampleBackgroundWorker\obj\Debug\netcoreapp2.1\ExampleBackgroundWorker.csproj.CoreCompileInputs.cache
+G:\PR\TestProject\Многопоточность_Блокировки\ExampleBackgroundWorker\obj\Debug\netcoreapp2.1\ExampleBackgroundWorker.AssemblyInfoInputs.cache
+G:\PR\TestProject\Многопоточность_Блокировки\ExampleBackgroundWorker\obj\Debug\netcoreapp2.1\ExampleBackgroundWorker.AssemblyInfo.cs
+G:\PR\TestProject\Многопоточность_Блокировки\ExampleBackgroundWorker\obj\Debug\netcoreapp2.1\ExampleBackgroundWorker.dll
+G:\PR\TestProject\Многопоточность_Блокировки\ExampleBackgroundWorker\obj\Debug\netcoreapp2.1\ExampleBackgroundWorker.pdb
