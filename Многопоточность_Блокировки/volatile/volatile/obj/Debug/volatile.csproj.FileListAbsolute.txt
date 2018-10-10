@@ -1,0 +1,12 @@
+F:\TestProject\volatile\volatile\bin\Debug\@volatile.exe.config
+F:\TestProject\volatile\volatile\obj\Debug\volatile.csprojResolveAssemblyReference.cache
+F:\TestProject\volatile\volatile\bin\Debug\@volatile.exe
+F:\TestProject\volatile\volatile\bin\Debug\@volatile.pdb
+F:\TestProject\volatile\volatile\obj\Debug\@volatile.exe
+F:\TestProject\volatile\volatile\obj\Debug\@volatile.pdb
+F:\PR\TestProject\volatile\volatile\bin\Debug\@volatile.exe.config
+F:\PR\TestProject\volatile\volatile\obj\Debug\@volatile.exe
+F:\PR\TestProject\volatile\volatile\obj\Debug\@volatile.pdb
+F:\PR\TestProject\volatile\volatile\bin\Debug\@volatile.exe
+F:\PR\TestProject\volatile\volatile\bin\Debug\@volatile.pdb
+F:\PR\TestProject\volatile\volatile\obj\Debug\volatile.csprojResolveAssemblyReference.cache

@@ -1,0 +1,9 @@
+F:\TestProject\mutex\mutex\bin\Debug\mutex.exe.config
+F:\TestProject\mutex\mutex\bin\Debug\mutex.exe
+F:\TestProject\mutex\mutex\bin\Debug\mutex.pdb
+F:\TestProject\mutex\mutex\obj\Debug\mutex.csprojResolveAssemblyReference.cache
+F:\TestProject\mutex\mutex\obj\Debug\mutex.exe
+F:\TestProject\mutex\mutex\obj\Debug\mutex.pdb
+F:\PR\TestProject\mutex\mutex\bin\Debug\mutex.exe.config
+F:\PR\TestProject\mutex\mutex\obj\Debug\mutex.exe
+F:\PR\TestProject\mutex\mutex\obj\Debug\mutex.pdb

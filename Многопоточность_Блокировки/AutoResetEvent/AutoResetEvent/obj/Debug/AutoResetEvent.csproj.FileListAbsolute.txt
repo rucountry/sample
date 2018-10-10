@@ -1,0 +1,8 @@
+F:\TestProject\AutoResetEvent\AutoResetEvent\bin\Debug\AutoResetEvent.exe.config
+F:\TestProject\AutoResetEvent\AutoResetEvent\bin\Debug\AutoResetEvent.exe
+F:\TestProject\AutoResetEvent\AutoResetEvent\bin\Debug\AutoResetEvent.pdb
+F:\TestProject\AutoResetEvent\AutoResetEvent\obj\Debug\AutoResetEvent.exe
+F:\TestProject\AutoResetEvent\AutoResetEvent\obj\Debug\AutoResetEvent.pdb
+F:\PR\TestProject\AutoResetEvent\AutoResetEvent\bin\Debug\AutoResetEvent.exe.config
+F:\PR\TestProject\AutoResetEvent\AutoResetEvent\obj\Debug\AutoResetEvent.exe
+F:\PR\TestProject\AutoResetEvent\AutoResetEvent\obj\Debug\AutoResetEvent.pdb

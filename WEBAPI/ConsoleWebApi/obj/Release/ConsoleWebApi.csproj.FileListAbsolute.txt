@@ -1,0 +1,10 @@
+F:\TestProject\webapi1\ConsoleWebApi\bin\Release\ConsoleWebApi.exe.config
+F:\TestProject\webapi1\ConsoleWebApi\bin\Release\ConsoleWebApi.exe
+F:\TestProject\webapi1\ConsoleWebApi\bin\Release\ConsoleWebApi.pdb
+F:\TestProject\webapi1\ConsoleWebApi\bin\Release\Newtonsoft.Json.dll
+F:\TestProject\webapi1\ConsoleWebApi\bin\Release\System.Net.Http.Formatting.dll
+F:\TestProject\webapi1\ConsoleWebApi\bin\Release\Newtonsoft.Json.xml
+F:\TestProject\webapi1\ConsoleWebApi\bin\Release\System.Net.Http.Formatting.xml
+F:\TestProject\webapi1\ConsoleWebApi\bin\Release\ru\System.Net.Http.Formatting.resources.dll
+F:\TestProject\webapi1\ConsoleWebApi\obj\Release\ConsoleWebApi.exe
+F:\TestProject\webapi1\ConsoleWebApi\obj\Release\ConsoleWebApi.pdb

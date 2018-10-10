@@ -1,0 +1,9 @@
+F:\TestProject\semaphore\semaphore\bin\Debug\semaphore.exe.config
+F:\TestProject\semaphore\semaphore\bin\Debug\semaphore.exe
+F:\TestProject\semaphore\semaphore\bin\Debug\semaphore.pdb
+F:\TestProject\semaphore\semaphore\obj\Debug\semaphore.csprojResolveAssemblyReference.cache
+F:\TestProject\semaphore\semaphore\obj\Debug\semaphore.exe
+F:\TestProject\semaphore\semaphore\obj\Debug\semaphore.pdb
+F:\PR\TestProject\semaphore\semaphore\bin\Debug\semaphore.exe.config
+F:\PR\TestProject\semaphore\semaphore\obj\Debug\semaphore.exe
+F:\PR\TestProject\semaphore\semaphore\obj\Debug\semaphore.pdb
