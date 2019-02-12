@@ -1,0 +1,7 @@
+G:\PR\TestProject\Patterns\PatternsGof\bin\Debug\PatternsGof.exe.config
+G:\PR\TestProject\Patterns\PatternsGof\bin\Debug\PatternsGof.exe
+G:\PR\TestProject\Patterns\PatternsGof\bin\Debug\PatternsGof.pdb
+G:\PR\TestProject\Patterns\PatternsGof\obj\Debug\PatternsGof.csprojAssemblyReference.cache
+G:\PR\TestProject\Patterns\PatternsGof\obj\Debug\PatternsGof.csproj.CoreCompileInputs.cache
+G:\PR\TestProject\Patterns\PatternsGof\obj\Debug\PatternsGof.exe
+G:\PR\TestProject\Patterns\PatternsGof\obj\Debug\PatternsGof.pdb
