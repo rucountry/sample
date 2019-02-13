@@ -1,4 +1,7 @@
-﻿namespace PatternsGof.AbstractFactory
+﻿using PatternsGof.AbstractFactory.Abstract;
+
+
+namespace PatternsGof.AbstractFactory.CSharp
 {
 	public class CSharpProduct : Product
 	{

@@ -44,23 +44,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractFactory\ClientAbstractFactory.cs" />
-    <Compile Include="AbstractFactory\CSharpDeveloper.cs" />
-    <Compile Include="AbstractFactory\CSharpProduct.cs" />
-    <Compile Include="AbstractFactory\CSharpTester.cs" />
-    <Compile Include="AbstractFactory\IDeveloper.cs" />
-    <Compile Include="AbstractFactory\Ipm.cs" />
-    <Compile Include="AbstractFactory\JavaProduct.cs" />
-    <Compile Include="AbstractFactory\PhpProduct.cs" />
-    <Compile Include="AbstractFactory\Product.cs" />
-    <Compile Include="AbstractFactory\ITester.cs" />
-    <Compile Include="AbstractFactory\JavaDeveloper.cs" />
-    <Compile Include="AbstractFactory\JavaTester.cs" />
-    <Compile Include="AbstractFactory\MainPM.cs" />
-    <Compile Include="AbstractFactory\PhpDeveloper.cs" />
-    <Compile Include="AbstractFactory\PhpTester.cs" />
-    <Compile Include="AbstractFactory\SuperMainPM.cs" />
+    <Compile Include="AbstractFactory\CSharp\CSharpDeveloper.cs" />
+    <Compile Include="AbstractFactory\CSharp\CSharpProduct.cs" />
+    <Compile Include="AbstractFactory\CSharp\CSharpTester.cs" />
+    <Compile Include="AbstractFactory\Abstract\IDeveloper.cs" />
+    <Compile Include="AbstractFactory\Abstract\Ipm.cs" />
+    <Compile Include="AbstractFactory\Java\JavaProduct.cs" />
+    <Compile Include="AbstractFactory\Abstract\Product.cs" />
+    <Compile Include="AbstractFactory\Abstract\ITester.cs" />
+    <Compile Include="AbstractFactory\Java\JavaDeveloper.cs" />
+    <Compile Include="AbstractFactory\Java\JavaTester.cs" />
+    <Compile Include="AbstractFactory\CSharp\MainPM.cs" />
+    <Compile Include="AbstractFactory\Java\SuperMainPM.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Singleton\ClientSingleton.cs" />
+    <Compile Include="Singleton\CSharpDeveloper.cs" />
+    <Compile Include="Singleton\JavaDeveloper.cs" />
+    <Compile Include="Singleton\PhpLazySingleton.cs" />
     <Compile Include="TemplateMethod\Client.cs" />
     <Compile Include="TemplateMethod\CSharpDeveloper.cs" />
     <Compile Include="TemplateMethod\CSharpFactory.cs" />
@@ -72,5 +73,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

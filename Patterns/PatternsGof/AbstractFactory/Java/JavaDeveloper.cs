@@ -1,6 +1,7 @@
-﻿using System;
+﻿using PatternsGof.AbstractFactory.Abstract;
+using System;
 
-namespace PatternsGof.AbstractFactory
+namespace PatternsGof.AbstractFactory.Java
 {
 	public class JavaDeveloper : IDeveloper
 	{

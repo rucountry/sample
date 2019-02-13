@@ -1,4 +1,4 @@
-﻿namespace PatternsGof.AbstractFactory
+﻿namespace PatternsGof.AbstractFactory.Abstract
 {
 	public abstract class Product
 	{

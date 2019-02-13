@@ -1,4 +1,6 @@
-﻿namespace PatternsGof.AbstractFactory
+﻿using PatternsGof.AbstractFactory.Abstract;
+
+namespace PatternsGof.AbstractFactory.Java
 {
 	public class JavaProduct : Product
 	{

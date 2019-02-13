@@ -1,4 +1,5 @@
 ﻿using PatternsGof.AbstractFactory;
+using PatternsGof.Singleton;
 using PatternsGof.TemplateMethod;
 using System;
 
@@ -13,6 +14,9 @@ namespace PatternsGof
 
 			//ClientAbstractFactory client = new ClientAbstractFactory();
 			//client.Go();
+
+			ClientSingleton client = new ClientSingleton();
+			client.Go();
 
 			Console.ReadLine();
 		}
