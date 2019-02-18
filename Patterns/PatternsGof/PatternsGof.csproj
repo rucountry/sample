@@ -56,19 +56,27 @@
     <Compile Include="AbstractFactory\Java\JavaTester.cs" />
     <Compile Include="AbstractFactory\CSharp\MainPM.cs" />
     <Compile Include="AbstractFactory\Java\SuperMainPM.cs" />
+    <Compile Include="Builder\Abstract\IBuilder.cs" />
+    <Compile Include="Builder\Abstract\IProduct.cs" />
+    <Compile Include="Builder\Builder\TreeBuilder.cs" />
+    <Compile Include="Builder\Builder\BrickBuilder.cs" />
+    <Compile Include="Builder\ClientBuilder.cs" />
+    <Compile Include="Builder\Product\BrickHouse.cs" />
+    <Compile Include="Builder\Product\TreeHouse.cs" />
+    <Compile Include="Builder\Prorab.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Singleton\ClientSingleton.cs" />
     <Compile Include="Singleton\CSharpDeveloper.cs" />
     <Compile Include="Singleton\JavaDeveloper.cs" />
     <Compile Include="Singleton\PhpLazySingleton.cs" />
-    <Compile Include="TemplateMethod\Client.cs" />
-    <Compile Include="TemplateMethod\CSharpDeveloper.cs" />
-    <Compile Include="TemplateMethod\CSharpFactory.cs" />
-    <Compile Include="TemplateMethod\IDeveloper.cs" />
-    <Compile Include="TemplateMethod\IFactory.cs" />
-    <Compile Include="TemplateMethod\JavaDeveloper.cs" />
-    <Compile Include="TemplateMethod\JavaFactory.cs" />
+    <Compile Include="FactoryMethod\Client.cs" />
+    <Compile Include="FactoryMethod\CSharpDeveloper.cs" />
+    <Compile Include="FactoryMethod\CSharpFactory.cs" />
+    <Compile Include="FactoryMethod\Abstract\IDeveloper.cs" />
+    <Compile Include="FactoryMethod\Abstract\IFactory.cs" />
+    <Compile Include="FactoryMethod\JavaDeveloper.cs" />
+    <Compile Include="FactoryMethod\JavaFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
