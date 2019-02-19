@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace PatternsGof.TemplateMethod
+namespace PatternsGof.FactoryMethod
 {
-	public class ClientTemplateMethod
+	public class ClientFactoryMethod
 	{
 		public void Go()
 		{

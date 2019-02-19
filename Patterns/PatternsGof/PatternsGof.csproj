@@ -77,6 +77,16 @@
     <Compile Include="FactoryMethod\Abstract\IFactory.cs" />
     <Compile Include="FactoryMethod\JavaDeveloper.cs" />
     <Compile Include="FactoryMethod\JavaFactory.cs" />
+    <Compile Include="Strategy\Delegate\ClientStrategyDelegate.cs" />
+    <Compile Include="Strategy\Delegate\SearchStrategyDelegate.cs" />
+    <Compile Include="Strategy\Delegate\GoogleParser.cs" />
+    <Compile Include="Strategy\Delegate\IParser.cs" />
+    <Compile Include="Strategy\Delegate\YandexParser.cs" />
+    <Compile Include="Strategy\Interface\ClientStrategy.cs" />
+    <Compile Include="Strategy\Interface\FastSearch.cs" />
+    <Compile Include="Strategy\Interface\FullSearch.cs" />
+    <Compile Include="Strategy\Interface\IStrategy.cs" />
+    <Compile Include="Strategy\Interface\SearchStrategy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -1,4 +1,4 @@
-﻿namespace PatternsGof.TemplateMethod
+﻿namespace PatternsGof.FactoryMethod
 {
 	public class CSharpFactory : IFactory
 	{

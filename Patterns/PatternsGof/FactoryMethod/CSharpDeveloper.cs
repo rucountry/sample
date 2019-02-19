@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PatternsGof.TemplateMethod
+namespace PatternsGof.FactoryMethod
 {
 	public class CSharpDeveloper : IDeveloper
 	{

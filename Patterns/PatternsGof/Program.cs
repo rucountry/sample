@@ -1,4 +1,6 @@
-﻿using PatternsGof.Builder;
+﻿using PatternsGof.FactoryMethod;
+using PatternsGof.Strategy;
+using PatternsGof.Strategy.Delegate;
 using System;
 
 namespace PatternsGof
@@ -7,7 +9,7 @@ namespace PatternsGof
 	{
 		static void Main(string[] args)
 		{
-			//ClientTemplateMethod client = new ClientTemplateMethod();
+			//ClientFactoryMethod client = new ClientFactoryMethod();
 			//client.Go();
 
 			//ClientAbstractFactory client = new ClientAbstractFactory();
@@ -16,7 +18,13 @@ namespace PatternsGof
 			//ClientSingleton client = new ClientSingleton();
 			//client.Go();
 
-			ClientBuilder client = new ClientBuilder();
+			//ClientBuilder client = new ClientBuilder();
+			//client.Go();
+
+			//ClientStrategy client = new ClientStrategy();
+			//client.Go();
+
+			ClientStrategyDelegate client = new ClientStrategyDelegate();
 			client.Go();
 
 			Console.ReadLine();
