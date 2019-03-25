@@ -1,0 +1,10 @@
+G:\PR\TestProject\Games\Boomberman\bin\Release\Boomberman.exe.config
+G:\PR\TestProject\Games\Boomberman\bin\Release\Boomberman.exe
+G:\PR\TestProject\Games\Boomberman\bin\Release\Boomberman.pdb
+G:\PR\TestProject\Games\Boomberman\obj\Release\Boomberman.FormGame.resources
+G:\PR\TestProject\Games\Boomberman\obj\Release\Boomberman.Properties.Resources.resources
+G:\PR\TestProject\Games\Boomberman\obj\Release\Boomberman.csproj.GenerateResource.cache
+G:\PR\TestProject\Games\Boomberman\obj\Release\Boomberman.csproj.CoreCompileInputs.cache
+G:\PR\TestProject\Games\Boomberman\obj\Release\Boomberman.exe
+G:\PR\TestProject\Games\Boomberman\obj\Release\Boomberman.pdb
+G:\PR\TestProject\Games\Boomberman\obj\Release\Boomberman.csprojAssemblyReference.cache
