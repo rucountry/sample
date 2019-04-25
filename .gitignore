@@ -15,10 +15,6 @@
 
 /AutoResetEvent/AutoResetEvent/obj
 
-/PatternsOOP/.vs
-/PatternsOOP/PatternsOOP/obj
-
-/PatternsOOP/PatternsOOP/bin
 /.vs
 
 /.vs/*.sqlite
@@ -28,6 +24,18 @@
 /.vs/TestProject/v15/.suo
 v15
 
-/Разное/SampleStructures/SampleStructures/obj
 
-/Разное/SampleStructures/SampleStructures/bin
+
+/Other/SampleStructures/SampleStructures/obj
+
+/Other/SampleStructures/SampleStructures/bin
+/Other/linq/linq/obj
+
+/Other/linq/linq/bin
+/Other/BinaryTree/BinaryTree/obj
+
+/Other/BinaryTree/BinaryTree/bin
+/Games/Boomberman/bin
+/Games/Boomberman/obj
+/Patterns/PatternsGof/bin
+/Patterns/PatternsGof/obj

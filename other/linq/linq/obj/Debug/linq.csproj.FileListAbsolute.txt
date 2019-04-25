@@ -1,6 +1,0 @@
-F:\PR\TestProject\linq\linq\bin\Debug\linq.exe.config
-F:\PR\TestProject\linq\linq\bin\Debug\linq.exe
-F:\PR\TestProject\linq\linq\bin\Debug\linq.pdb
-F:\PR\TestProject\linq\linq\obj\Debug\linq.csprojResolveAssemblyReference.cache
-F:\PR\TestProject\linq\linq\obj\Debug\linq.exe
-F:\PR\TestProject\linq\linq\obj\Debug\linq.pdb
