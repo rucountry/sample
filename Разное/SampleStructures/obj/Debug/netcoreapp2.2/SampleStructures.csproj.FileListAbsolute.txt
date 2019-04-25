@@ -1,0 +1,11 @@
+G:\PR\TestProject\Разное\SampleStructures\bin\Debug\netcoreapp2.2\SampleStructures.deps.json
+G:\PR\TestProject\Разное\SampleStructures\bin\Debug\netcoreapp2.2\SampleStructures.runtimeconfig.json
+G:\PR\TestProject\Разное\SampleStructures\bin\Debug\netcoreapp2.2\SampleStructures.runtimeconfig.dev.json
+G:\PR\TestProject\Разное\SampleStructures\bin\Debug\netcoreapp2.2\SampleStructures.dll
+G:\PR\TestProject\Разное\SampleStructures\bin\Debug\netcoreapp2.2\SampleStructures.pdb
+G:\PR\TestProject\Разное\SampleStructures\obj\Debug\netcoreapp2.2\SampleStructures.csproj.CoreCompileInputs.cache
+G:\PR\TestProject\Разное\SampleStructures\obj\Debug\netcoreapp2.2\SampleStructures.AssemblyInfoInputs.cache
+G:\PR\TestProject\Разное\SampleStructures\obj\Debug\netcoreapp2.2\SampleStructures.AssemblyInfo.cs
+G:\PR\TestProject\Разное\SampleStructures\obj\Debug\netcoreapp2.2\SampleStructures.dll
+G:\PR\TestProject\Разное\SampleStructures\obj\Debug\netcoreapp2.2\SampleStructures.pdb
+G:\PR\TestProject\Разное\SampleStructures\obj\Debug\netcoreapp2.2\SampleStructures.csprojAssemblyReference.cache
