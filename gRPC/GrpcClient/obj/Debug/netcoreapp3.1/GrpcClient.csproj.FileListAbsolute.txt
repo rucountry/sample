@@ -1,0 +1,16 @@
+C:\Users\rasim\source\repos\GrpcClient\bin\Debug\netcoreapp3.1\GrpcClient.exe
+C:\Users\rasim\source\repos\GrpcClient\obj\Debug\netcoreapp3.1\GrpcClient.AssemblyInfoInputs.cache
+C:\Users\rasim\source\repos\GrpcClient\obj\Debug\netcoreapp3.1\GrpcClient.AssemblyInfo.cs
+C:\Users\rasim\source\repos\GrpcClient\bin\Debug\netcoreapp3.1\Grpc.Core.Api.dll
+C:\Users\rasim\source\repos\GrpcClient\bin\Debug\netcoreapp3.1\Grpc.Net.Client.dll
+C:\Users\rasim\source\repos\GrpcClient\bin\Debug\netcoreapp3.1\Grpc.Net.Common.dll
+C:\Users\rasim\source\repos\GrpcClient\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\rasim\source\repos\GrpcClient\obj\Debug\netcoreapp3.1\GrpcClient.csproj.CopyComplete
+C:\Users\rasim\source\repos\GrpcClient\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\Users\rasim\source\repos\GrpcClient\bin\Debug\netcoreapp3.1\GrpcClient.deps.json
+C:\Users\rasim\source\repos\GrpcClient\bin\Debug\netcoreapp3.1\GrpcClient.runtimeconfig.json
+C:\Users\rasim\source\repos\GrpcClient\bin\Debug\netcoreapp3.1\GrpcClient.runtimeconfig.dev.json
+C:\Users\rasim\source\repos\GrpcClient\bin\Debug\netcoreapp3.1\GrpcClient.dll
+C:\Users\rasim\source\repos\GrpcClient\bin\Debug\netcoreapp3.1\GrpcClient.pdb
+C:\Users\rasim\source\repos\GrpcClient\obj\Debug\netcoreapp3.1\GrpcClient.dll
+C:\Users\rasim\source\repos\GrpcClient\obj\Debug\netcoreapp3.1\GrpcClient.pdb

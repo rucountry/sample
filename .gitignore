@@ -1,6 +1,3 @@
-/webapi1
-/ConsoleWebApi/bin
-/ConsoleWebApi/obj
 /ManualResetEvent/ManualResetEvent/bin
 
 /ManualResetEvent/ManualResetEvent/obj
@@ -39,3 +36,5 @@ v15
 /Games/Boomberman/obj
 /Patterns/PatternsGof/bin
 /Patterns/PatternsGof/obj
+/WEBAPI/ConsoleWebApi/bin
+/WEBAPI/ConsoleWebApi/obj
